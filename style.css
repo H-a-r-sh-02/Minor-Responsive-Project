@@ -969,7 +969,7 @@ html,body{
     
     #page9 #third h4{
         font-size: 1.75vw;
-        margin-bottom: -1.5vw;
+        margin-bottom: -0.6vw;
     }
     #third h4::before{
         padding: 0.15vw 0.7vw;
@@ -999,7 +999,7 @@ html,body{
     }
     #btm-left h1::before{
         font-size: 1.2vw;
-        top: 24%;
+        top: 26%;
     }  
     #btm-center h4{
         font-size: 2vw;
