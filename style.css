@@ -12,7 +12,6 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: #fff;
-    /* background-color: #657388; */
     position: relative;
     padding-top: 1px;
 }
@@ -21,7 +20,6 @@ html,body{
 #nav{
     height: 11vh;
     width: 100%;    
-    /* background-color: red; */
     margin-top: 35px;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
@@ -30,7 +28,6 @@ html,body{
     justify-content: space-between
 }
 #nav h1{
-    /* background-color: rgb(0, 174, 255); */
     height: 100%;
     width: 20%;
     margin-left: 2.8vw;
@@ -47,7 +44,6 @@ html,body{
     font-family: gilroy;
     font-size: 1.8vw;
     font-weight: 400;
-    /* padding: 0.08vw 0.3vw; */
     margin: -1.8vw 0 0 0.3vw;
 }
 #nav h1::before{
@@ -60,12 +56,10 @@ html,body{
     color: #666;
     right: 14%;
     letter-spacing: 0.2px;
-    /* background-color: #9387a0; */
 }
 #nav h2{
     font-size: 25px;
     font-weight: 500;
-    /* background-color: rgb(204, 255, 0); */
     height: 100%;
     width: 23%;
     display: flex;
@@ -88,7 +82,6 @@ html,body{
 #center{
     height: 90%;
     width: 100%;
-    /* background-color: rgb(123,156,29); */
     padding: 4vw 4.2vw;
     position: relative;
 }
@@ -96,7 +89,6 @@ html,body{
     height: 100%;
     width: 100%;
     position: relative;
-    /* background-color: wheat; */
 }
 #content video{
     height: 100%;
@@ -108,7 +100,6 @@ html,body{
     width: 100%;
     position: absolute;
     bottom: 0;
-    /* background-color: #935476; */
     padding: 3vw;
     color: #F8F8F8;
 }
@@ -121,13 +112,11 @@ html,body{
 #over1 h1{
     font-family: monument;
     font-size: 3.5vw;
-    /* font-weight: 100; */
 }
 #over1 h2{
     font-size: 1vw;
     font-weight: 200;
     padding: 2vw 2.2vw;
-    /* background-color: #000; */
     border-radius: 50%;
     border: 1px solid #fff;
 }
@@ -149,7 +138,6 @@ html,body{
 #scroll{
     height: 40vh;
     width: 100%;
-    /* background-color: #000; */
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
@@ -174,8 +162,6 @@ html,body{
     height: 100%;
     width: 15%;
     object-fit: cover;
-    /* object-position: top; */
-    /* display: none; */
     margin-right: 2vw;
     border-radius: 50%;
 }
@@ -198,7 +184,6 @@ html,body{
 #alphabets{
     height: 11vh;
     width: 100%;
-    /* background-color: yellow; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -211,7 +196,6 @@ html,body{
     font-weight: 600;
     font-style: italic;
     letter-spacing: 4px;
-    /* margin-right: 1vw; */
 }
 #alphabets h2:hover{
     border-bottom: 2px solid black;
@@ -221,7 +205,6 @@ html,body{
     font-weight: 550;
     font-style: italic;
     letter-spacing: 4px;
-    /* border: 2px solid black; */
     padding: 0.5vw 0.7vw;
     border-radius: 50%;
     cursor: pointer;
@@ -253,7 +236,6 @@ html,body{
     align-items: center;
     justify-content: space-between;
     padding: 3.5vw 4.2vw 0 4.2vw;
-    /* background-color: #6b6a6a; */
 }
 #page2-part1{
     height: 100%;
@@ -282,10 +264,8 @@ html,body{
     height: 25%;
     width: 100%;
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     margin-top: 0.7vw;
-    /* background-color: #735285; */
 }
 #description h2{
     font-size: 1.8vw;
@@ -298,7 +278,6 @@ html,body{
 #page2-bottom-heading{
     height: 2.7vw;
     width: 100%;
-    /* background-color: #783528; */
     padding-left: 4.3vw;
 }
 #page2-bottom-heading h1{
@@ -316,7 +295,6 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #947932; */
     padding: 2vw 4.2vw;
 }
 #page3>img{                         
@@ -331,7 +309,6 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* background-color: #645278; */
     padding-left: 3vw;
     margin-left: 2vw;
 }
@@ -344,12 +321,10 @@ html,body{
     font-size: 19px;
     font-weight: 400;
     font-family: monument;
-    /* font-style: bold; */
 }
 #page3-right{
     height: 100%;
     width: 50%;
-    /* background-color: #445278; */
 }
 #page3-right img{
     height: 100%;
@@ -363,7 +338,6 @@ html,body{
     height: 100%;
     width: 100%;
     padding: 3.8vw 4.2vw;
-    /* background-color: #624364; */
 }
 #page4 img{
     height: 100%;
@@ -376,7 +350,6 @@ html,body{
 #page5{
     height: 100%;
     width: 100%;
-    /* background-color: #724733; */
     padding: 4vw 4.2vw;
 }
 #page5>h1{
@@ -391,7 +364,6 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #453621; */
     border-top: 2px solid #000;
     padding: 0 2vw;
     position: relative;
@@ -414,11 +386,9 @@ html,body{
     font-size: 1.3vw;
     font-weight: 500;
     width: 6%;
-    /* background-color: #663579; */
 }
 .elem .elem-part2{
     width: 45%;
-    /* background-color: #932528; */
 }
 .elem-part2 h1{
     font-size: 2.9vw;
@@ -436,7 +406,6 @@ html,body{
 #page6{
     height: 100%;
     width: 100%;
-    /* background-color: #724436; */
     display: flex;
     justify-content: space-between;
     padding: 5vw 4.2vw 2.3vw 4.2vw;
@@ -444,7 +413,6 @@ html,body{
 #page6 #left-img{
     height: 100%;
     width: 48%;
-    /* background-color: #c55b61; */
     background-image: url(https://images.unsplash.com/photo-1599556906120-b02499de8b84?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
@@ -452,7 +420,6 @@ html,body{
 #page6 #right-content{
     height: 100%;
     width: 48%;
-    /* background-color: #649277; */
     padding-top: 0.2vw;
 }
 #right-content h1{
@@ -475,14 +442,12 @@ html,body{
 #right-content #images{
     height: calc(100% - 20.6vw);
     width: 100%;
-    /* background-color: #253475; */
     display: flex;
     justify-content: space-between;
 }
 #images #image1{
     height: 100%;
     width: 51%;
-    /* background-color: #583528; */
     background-image: url(https://images.unsplash.com/photo-1585980658562-dc05a72b5820?q=80&w=1366&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
@@ -490,7 +455,6 @@ html,body{
 #images #image2{
     height: 100%;
     width: 45%;
-    /* background-color: #f36f3f; */
     background-image: url(https://images.unsplash.com/photo-1645034648296-db17721ec50f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: 0 50%;
@@ -499,7 +463,6 @@ html,body{
 #page7{
     height: 100%;
     width: 100%;
-    /* background-color: #745472; */
     padding: 4vw 4.2vw;
 }
 #page7 img{
@@ -512,7 +475,6 @@ html,body{
 #page8{
     height: 100%;
     width: 100%;
-    /* background-color: #524337; */
     display: flex;
     justify-content: space-between;
     padding: 1.5vw 4.2vw 2.5vw 4.2vw;
@@ -520,7 +482,6 @@ html,body{
 #page8-left{
     height: 100%;
     width: 52%;
-    /* background-color: #736382; */
     background-image: url(https://images.unsplash.com/photo-1633624939902-55db526208b9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
@@ -543,7 +504,6 @@ html,body{
 #page8-right #bottom-text{
     height: 35%;
     width: 100%;
-    /* background-color: #675243; */
     display: flex;
     justify-content: space-between;
     padding-top: 1vw;
@@ -558,9 +518,7 @@ html,body{
 }
 
 #marque{
-    /* height: 15vh; */
     width: 100%;
-    /* background-color: red; */
     padding: 1vw;
     white-space: nowrap;
     overflow-x: hidden;
@@ -597,14 +555,12 @@ html,body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* background-color: #753828; */
     padding: 5vw 4.2vw;
     margin-top: 1vw;
 }
 #page9 #first{
     height: 100%;
     width: 18%;
-    /* background-color: #eb4d6f; */
 }
 #first h1{
     font-size: 3vw;
@@ -614,7 +570,6 @@ html,body{
 #page9 #second{
     height: 100%;
     width: 37%;
-    /* background-color: #a9da22; */
     padding-top: 0.7vw;
 }
 #page9 #second h4{
@@ -639,7 +594,6 @@ html,body{
 #page9 #third{
     height: 100%;
     width: 40%;
-    /* background-color: #0c347e; */
     padding-top: 0.7vw;
 }
 #page9 #third h4{
@@ -665,7 +619,6 @@ html,body{
     height: 55%;
     width: 100%;
     display: flex;
-    /* background-color: #634278; */
     padding: 4vw 0 3vw 0;
 }
 #footer #btm-left{
@@ -677,10 +630,8 @@ html,body{
     border-bottom: 2px solid #000;
     border-right: 2px solid #000;
     padding: 1.8vw 4.2vw;
-    /* background-color: #524636; */
 }
 #btm-left h1{
-    /* background-color: rgb(0, 174, 255); */
     display: flex;
     justify-content: center;
     font-size: 2.93vw;
@@ -715,7 +666,6 @@ html,body{
 #footer #btm-center{
     height: 100%;
     width: 22%;
-    /* background-color: #213436; */
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     border-right: 2px solid #000;
@@ -730,7 +680,6 @@ html,body{
 #footer #btm-right{
     height: 100%;
     width: 41%;
-    /* background-color: #4de1f1; */
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     padding-top: 1.8vw;
@@ -783,7 +732,7 @@ html,body{
     }
     #nav h1{
         width: 50%;
-        margin-left: 3vw;
+        margin-left: 1vw;
         font-size: 8vw;
     }
     #nav h1::after{
@@ -914,7 +863,7 @@ html,body{
     }
     #page5>h1{
         font-size: 5vw;
-        margin-bottom: 2.8vh;
+        margin-bottom: 2.5vh;
     }
     .elem{
         height: 7.8vh;
@@ -937,7 +886,7 @@ html,body{
 
     #page6{
         height: 35%;
-        padding: 3vw 4.2vw 2.3vw 4.2vw;
+        padding: 4vw 4.2vw 2.3vw 4.2vw;
     }
     #right-content h1{
         font-size: 4.2vw;
@@ -949,6 +898,7 @@ html,body{
     }
     #right-content p{
         font-size: 1.5vw;
+        margin-bottom: 2.2vw;
     }
     #right-content #images{
         height: calc(100% - 27.6vw);
@@ -1017,7 +967,7 @@ html,body{
     
     #page9 #third h4{
         font-size: 1.75vw;
-        margin-bottom: 2vw;
+        margin-bottom: 1vw;
     }
     #third h4::before{
         padding: 0.15vw 0.7vw;
@@ -1036,7 +986,7 @@ html,body{
         height: 100%; 
     }
     #btm-left h1{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
     #btm-left h4{
         font-size: 2vw;
