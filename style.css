@@ -931,6 +931,7 @@ html,body{
     #page8-right #picture:hover{
         height: 72%;
         cursor: pointer;
+        transition: all ease 0.2s;
     }
     #picture img{
         object-position: 0 35%;
