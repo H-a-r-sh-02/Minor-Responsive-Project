@@ -732,7 +732,6 @@ html,body{
     }
     #nav h1{
         width: 50%;
-        margin-left: 1vw;
         font-size: 8vw;
     }
     #nav h1::after{
@@ -817,6 +816,9 @@ html,body{
 
     #page2{
         height: 35%;
+    }
+    #page2-part2 img:hover{
+        height: 76%;
     }
     #page2-part2 #description{
         height: 23%;
@@ -967,7 +969,7 @@ html,body{
     
     #page9 #third h4{
         font-size: 1.75vw;
-        margin-bottom: 1vw;
+        margin-bottom: 0.5vw;
     }
     #third h4::before{
         padding: 0.15vw 0.7vw;
@@ -986,7 +988,7 @@ html,body{
         height: 100%; 
     }
     #btm-left h1{
-        font-size: 4vw;
+        font-size: 6vw;
     }
     #btm-left h4{
         font-size: 2vw;
@@ -997,7 +999,7 @@ html,body{
     }
     #btm-left h1::before{
         font-size: 1.2vw;
-        top: 17%;
+        top: 19%;
     }  
     #btm-center h4{
         font-size: 2vw;
