@@ -771,7 +771,7 @@ html,body{
 }
 
 
-@media (max-width:600px) {
+@media (max-width:600px){
     body{
         overflow-x: hidden;
     }
@@ -779,12 +779,12 @@ html,body{
 
     #nav{
         height: 8vh;
-        margin-top: 25px;
+        margin-top: 20px;
     }
     #nav h1{
-        width: 40%;
-        margin-left: 5.3vw;
-        font-size: 7vw;
+        width: 50%;
+        margin-left: 3vw;
+        font-size: 8vw;
     }
     #nav h1::after{
         font-size: 4vw;
@@ -792,7 +792,7 @@ html,body{
         margin: -5vw 0 0 0.6vh;
     }
     #nav h1::before{
-        font-size: 3vw;
+        font-size: 2.8vw;
         bottom: 10%;
         right: 10%;
     }
@@ -808,7 +808,8 @@ html,body{
 
     #center{
         height: 25%;
-        width: 100%;    
+        width: 100%;  
+        padding: 4vw 4.2vw 2vw 4.2vw;  
     }
     #content{
         height: 100%;
@@ -837,7 +838,7 @@ html,body{
 
 
     #scroll{
-        height: 12vh;
+        height: 10vh;
     }
     #container{
         width: 105%;
@@ -850,7 +851,7 @@ html,body{
 
 
     #alphabets{
-        height: 7vh;
+        height: 6vh;
         padding: 3vw 4vw;
     }
     #alphabets h2{
@@ -858,7 +859,7 @@ html,body{
         letter-spacing: 3px;
     }
     #alphabets h6{
-        font-size: 1.6vw;
+        font-size: 1.7vw;
         letter-spacing: 2px;
         padding: 0.3vw 0.5vw;
         gap: 7px;
@@ -866,7 +867,7 @@ html,body{
 
 
     #page2{
-        height: 40%;
+        height: 35%;
     }
     #page2-part2 #description{
         height: 23%;
@@ -908,16 +909,16 @@ html,body{
 
 
     #page5{
-        height: 45%;
+        height: 40%;
         padding: 2vw 4.2vw;
     }
     #page5>h1{
         font-size: 5vw;
-        margin-bottom: 3vh;
+        margin-bottom: 2.8vh;
     }
     .elem{
-        height: 9vh;
-        padding: 0 1vw;
+        height: 7.8vh;
+        padding: 0 1vw; 
     }
     .elem img{
         height: 10vw;
@@ -936,7 +937,7 @@ html,body{
 
     #page6{
         height: 35%;
-        padding: 2vw 4.2vw 2.3vw 4.2vw;
+        padding: 3vw 4.2vw 2.3vw 4.2vw;
     }
     #right-content h1{
         font-size: 4.2vw;
@@ -975,6 +976,10 @@ html,body{
         height: 65%;
         margin-bottom: 2vw;
     } 
+    #page8-right #picture:hover{
+        height: 72%;
+        cursor: pointer;
+    }
     #picture img{
         object-position: 0 35%;
     }
@@ -992,7 +997,7 @@ html,body{
 
 
     #page9{
-        height: 35%;
+        height: 40%;
         padding: 3vw 4.2vw;
     }
     #first h1{
@@ -1012,13 +1017,14 @@ html,body{
     
     #page9 #third h4{
         font-size: 1.75vw;
+        margin-bottom: 2vw;
     }
     #third h4::before{
         padding: 0.15vw 0.7vw;
+        margin-right: 0.5vw;
     }
     #third img{
         height: 75%;
-        margin-top: 3.4vw;
     }
 
 
